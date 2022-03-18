@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import '../assets/app.css'
+    import Todo from '../components/Todo/TodoList.svelte'
+</script>
+
+<div class="h-screen bg-slate-800 p-10">
+    <Todo />
+</div>
